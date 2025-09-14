@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">❤ Ruang belajar eksklusif Ayumiiisaa ❤</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="back-button" onclick="goBack()">
+                <span>← 返回主目录</span>
+            </div>
+            <h1 class="title" id="subjectTitle">❤ Ruang belajar eksklusif Ayumiiisaa ❤</h1>
+            <p class="subtitle" id="subjectSubtitle">0,99³⁶⁵ = 0,03 &nbsp;&nbsp;&nbsp;
+1,01³⁶⁵ = 37,8&nbsp;&nbsp;&nbsp;
+Lakukan sedikit kemajuan setiap hari dan Anda akan menjadi pegawai negeri sipil.</p>
+        </header>
+        
+        <main class="main-content" id="mainContent">
+            <!-- 子目录选择 -->
+            <div class="menu-section" id="subMenu">
+                <div class="sub-menu-grid">
+                    <div class="sub-menu-card" onclick="showContent('基础知识')">
+                        <div class="sub-icon">📚</div>
+                        <h3>Dasar-dasar</h3>
+                    </div>
+                    <div class="sub-menu-card" onclick="showContent('课堂作业')">
+                        <div class="sub-icon">✏️</div>
+                        <h3>Pekerjaan Kelas</h3>
+                    </div>
+                    <div class="sub-menu-card" onclick="showContent('课后作业')">
+                        <div class="sub-icon">📝</div>
+                        <h3>Pekerjaan rumah</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 内容展示区 -->
+            <div class="content-section hidden" id="contentSection">
+                <div class="back-button" onclick="showSubMenu()">
+                    <span>← kembali</span>
+                </div>
+                <h2 class="content-title" id="contentTitle"></h2>
+                <div class="image-gallery" id="imageGallery">
+                    <!-- 图片将在这里动态加载 -->
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="subject.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤ Ruang belajar eksklusif Ayumiiisaa ❤</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">❤ Ruang belajar eksklusif Ayumiiisaa ❤</h1>
+            <p class="subtitle">0,99³⁶⁵ = 0,03 &nbsp;&nbsp;&nbsp;
+1,01³⁶⁵ = 37,8&nbsp;&nbsp;&nbsp;
+Lakukan sedikit kemajuan setiap hari dan Anda akan menjadi pegawai negeri sipil.</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="subject-grid">
+                <div class="subject-card" onclick="goToSubject('Teori Bilangan', '数论')">
+                    <div class="subject-icon">🔢</div>
+                    <h3>Teori Bilangan</h3>
+                    <p>数论</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Operasi Bilangan Pecahan', '分数运算')">
+                    <div class="subject-icon">➗</div>
+                    <h3>Operasi Bilangan Pecahan</h3>
+                    <p>分数运算</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Persentase', '百分比')">
+                    <div class="subject-icon">📊</div>
+                    <h3>Persentase</h3>
+                    <p>百分比</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Perbandingan', '比与比例')">
+                    <div class="subject-icon">⚖️</div>
+                    <h3>Perbandingan</h3>
+                    <p>比与比例</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Waktu, Jarak dan Kecepatan', '时间、距离、速度')">
+                    <div class="subject-icon">🚀</div>
+                    <h3>Waktu, Jarak dan Kecepatan</h3>
+                    <p>时间、距离、速度</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Waktu, Jarak dan Kecepatan 2', '时间、距离、速度 2')">
+                    <div class="subject-icon">🏃</div>
+                    <h3>Waktu, Jarak dan Kecepatan 2</h3>
+                    <p>时间、距离、速度 2</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Aritmetika Sosial', '社会算术（折扣、利润等）')">
+                    <div class="subject-icon">💰</div>
+                    <h3>Aritmetika Sosial</h3>
+                    <p>社会算术（折扣、利润等）</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Tabel dan Diagram', '表格与图表')">
+                    <div class="subject-icon">📈</div>
+                    <h3>Tabel dan Diagram</h3>
+                    <p>表格与图表</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Mean, Median, Modus dan Range', '平均数、中位数、众数、极差')">
+                    <div class="subject-icon">📊</div>
+                    <h3>Mean, Median, Modus dan Range</h3>
+                    <p>平均数、中位数、众数、极差</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Sinonim/Persamaan Kata', '近义词')">
+                    <div class="subject-icon">📝</div>
+                    <h3>Sinonim/Persamaan Kata</h3>
+                    <p>近义词</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Sinonim 2', '近义词 2')">
+                    <div class="subject-icon">✍️</div>
+                    <h3>Sinonim 2</h3>
+                    <p>近义词 2</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Kumpulan Sinonim Kata', '近义词汇总')">
+                    <div class="subject-icon">📚</div>
+                    <h3>Kumpulan Sinonim Kata</h3>
+                    <p>近义词汇总</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Antonim/Lawan Kata', '反义词')">
+                    <div class="subject-icon">🔄</div>
+                    <h3>Antonim/Lawan Kata</h3>
+                    <p>反义词</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Antonim 2', '反义词 2')">
+                    <div class="subject-icon">🔃</div>
+                    <h3>Antonim 2</h3>
+                    <p>反义词 2</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Kumpulan Antonim Kata', '反义词汇总')">
+                    <div class="subject-icon">📖</div>
+                    <h3>Kumpulan Antonim Kata</h3>
+                    <p>反义词汇总</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Analogi/Relasi Makna', '语义类比')">
+                    <div class="subject-icon">🧩</div>
+                    <h3>Analogi/Relasi Makna</h3>
+                    <p>语义类比</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Analogi Kata 2', '语义类比 2')">
+                    <div class="subject-icon">🎯</div>
+                    <h3>Analogi Kata 2</h3>
+                    <p>语义类比 2</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Pengelompokan Kata', '词语归类')">
+                    <div class="subject-icon">🗂️</div>
+                    <h3>Pengelompokan Kata</h3>
+                    <p>词语归类</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Pemahaman Bacaan', '阅读理解')">
+                    <div class="subject-icon">📖</div>
+                    <h3>Pemahaman Bacaan</h3>
+                    <p>阅读理解</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Aljabar, Pangkat dan Akar', '代数、幂与根')">
+                    <div class="subject-icon">🔢</div>
+                    <h3>Aljabar, Pangkat dan Akar</h3>
+                    <p>代数、幂与根</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Persamaan Linear Satu Variabel dan Aplikasinya', '一元一次方程及其应用')">
+                    <div class="subject-icon">📐</div>
+                    <h3>Persamaan Linear Satu Variabel dan Aplikasinya</h3>
+                    <p>一元一次方程及其应用</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Persamaan Linier Dua Variabel dan Aplikasinya', '二元一次方程及其应用')">
+                    <div class="subject-icon">📏</div>
+                    <h3>Persamaan Linier Dua Variabel dan Aplikasinya</h3>
+                    <p>二元一次方程及其应用</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Persamaan Linear Tiga Variabel dan Aplikasinya', '三元一次方程及其应用')">
+                    <div class="subject-icon">📊</div>
+                    <h3>Persamaan Linear Tiga Variabel dan Aplikasinya</h3>
+                    <p>三元一次方程及其应用</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Persamaan Kuadrat', '二次方程')">
+                    <div class="subject-icon">🔺</div>
+                    <h3>Persamaan Kuadrat</h3>
+                    <p>二次方程</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Aritmetika dan Geometri', '算术与几何')">
+                    <div class="subject-icon">📐</div>
+                    <h3>Aritmetika dan Geometri</h3>
+                    <p>算术与几何</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Bangun Datar', '平面几何')">
+                    <div class="subject-icon">🔷</div>
+                    <h3>Bangun Datar</h3>
+                    <p>平面几何</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Bangun Ruang', '立体几何')">
+                    <div class="subject-icon">🧊</div>
+                    <h3>Bangun Ruang</h3>
+                    <p>立体几何</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Eksponen Lanjutan dan Persamaannya', '指数进阶及其方程')">
+                    <div class="subject-icon">⚡</div>
+                    <h3>Eksponen Lanjutan dan Persamaannya</h3>
+                    <p>指数进阶及其方程</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Himpunan', '集合')">
+                    <div class="subject-icon">🎯</div>
+                    <h3>Himpunan</h3>
+                    <p>集合</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Teori Peluang, Permutasi dan Kombinasi', '概率、排列与组合')">
+                    <div class="subject-icon">🎲</div>
+                    <h3>Teori Peluang, Permutasi dan Kombinasi</h3>
+                    <p>概率、排列与组合</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Deret Angka dan Huruf', '数字与字母数列')">
+                    <div class="subject-icon">🔢</div>
+                    <h3>Deret Angka dan Huruf</h3>
+                    <p>数字与字母数列</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Deret Gambar', '图形数列')">
+                    <div class="subject-icon">🖼️</div>
+                    <h3>Deret Gambar</h3>
+                    <p>图形数列</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('Sudut, Garis dan Kesebangunan', '角、直线与相似（形）')">
+                    <div class="subject-icon">📐</div>
+                    <h3>Sudut, Garis dan Kesebangunan</h3>
+                    <p>角、直线与相似（形）</p>
+                </div>
+                <div class="subject-card" onclick="goToSubject('exam', '考试')">
+                    <div class="subject-icon">📝</div>
+                    <h3>Exam</h3>
+                    <p>考试</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
